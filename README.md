@@ -104,4 +104,8 @@
 
 ![stepper dimensions](https://github.com/SensorLab38/RoboticArm/blob/master/Stepper%20motor%20dimensions.jpg)
 
+Οι τεχνικές προδιαγραφές είναι πολύ χρήσιμες για να κατανοήσουμε τη λειτουργία του στεππερ.
+
+
+
 
