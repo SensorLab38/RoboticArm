@@ -15,11 +15,11 @@
 
 Τα υλικά που θα χρησιμοποιηθούν είναι:
 
-*1 Χ Microcontroller - Arduino UNO	7,90€
+1 Χ Arduino UNO			7,90€
 
-*1 Χ Breadboard 200 οπές		3,00€
+1 Χ Breadboard 200 οπές		3,00€
 
-2 Χ Stepper motor - Βηματικό μοτέρ 	5,00€
+2 Χ Stepper motor 	 	5,00€
 
 
 4	Motor Driver - 					2		1,90		3,80
