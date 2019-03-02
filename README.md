@@ -100,4 +100,8 @@
 
 ![stepper](https://github.com/SensorLab38/RoboticArm/blob/master/StepperMotorWithDriver_1200x1200.jpg)
 
+Οι διαστάσεις είναι απαραίτητες για την τοποθέτηση του stepper στην κατασκευή.
+
+![stepper dimensions](https://github.com/SensorLab38/RoboticArm/blob/master/Stepper%20motor%20dimensions.jpg(
+
 
