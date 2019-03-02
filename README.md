@@ -65,6 +65,6 @@
 Η ομάδα θα συνεχίσει και μετά τον διαγωνισμό για να ολοκληρώση και την πρώτη πρόταση.
 
 
-
+![stepper](https://github.com/SensorLab38/RoboticArm/blob/master/StepperMotorWithDriver_1200x1200.jpg)
 
 
