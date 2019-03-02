@@ -39,5 +39,5 @@
 
 
 
-
+![leds](./Fritzing 3 leds.png)
 
