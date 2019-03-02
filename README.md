@@ -15,10 +15,10 @@
 
 Τα υλικά που θα χρησιμοποιηθούν είναι:
 
-	          Κόστος κατασκευής ρομποτικού βραχίονα			
-α/α	Εξαρτήματα					Τεμάχια		Τιμή μονάδας	Σύνολο
-1	Microcontroller - Arduino UNO			1		7,90		7,90
-2	Breadboard 200 οπές				1		3,00		3,00
+*1 Χ Microcontroller - Arduino UNO	7,90
+*1 Χ Breadboard 200 οπές		3,00
+
+
 3	Stepper motor - Βηματικό μοτέρ  0,35Kg - 5V	2		2,50		5,00
 4	Motor Driver - 					2		1,90		3,80
 5	Relay - SRD-05VDC-SL-C relay			1		2,50		2,50
