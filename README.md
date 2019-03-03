@@ -121,7 +121,7 @@
 
 ![stepper diagram drive](https://github.com/SensorLab38/RoboticArm/blob/master/28byj-stepper-motor-wiring-diagram-1024x780.png)
 
-Συνδεσμολογία Arduino με Stepper motor.
+Συνδεσμολογία του Arduino με το Stepper motor και του stepper motor drive .
 
 ![stepper drive diagram](https://github.com/SensorLab38/RoboticArm/blob/master/diagram%20arduino%20stepper%20drive.jpg)
 
