@@ -107,7 +107,15 @@
 
 Οι τεχνικές προδιαγραφές είναι πολύ χρήσιμες για να κατανοήσουμε τη λειτουργία του stepper.
 
-![stepper specs](https://github.com/SensorLab38/RoboticArm/blob/master/datasheet-of-stepper-motor.png)
+![stepper specs](https://github.com/SensorLab38/RoboticArm/blob/master/datasheet-of-stepper-motor.png) 
+
+Περιγραφή του stepper motor.
+
+![stepper parts](https://github.com/SensorLab38/RoboticArm/blob/master/stepper-parts.jpg)
+
+
+
+
 
 Συνδεσμολογία Arduino με  Stepper motor.
 
