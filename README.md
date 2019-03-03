@@ -109,7 +109,7 @@
 
 ![stepper specs](https://github.com/SensorLab38/RoboticArm/blob/master/datasheet-of-stepper-motor.png) 
 
-Περιγραφή του stepper motor.
+Το εσωτερικό του stepper motor.
 
 ![stepper parts1](https://github.com/SensorLab38/RoboticArm/blob/master/stepper-parts1.png)
 
