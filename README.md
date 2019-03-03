@@ -117,13 +117,13 @@
 
 ![stepper parts](https://github.com/SensorLab38/RoboticArm/blob/master/stepper-parts.jpg)
 
-Συνδεσμολογία Arduino με Stepper motor.
-
-![stepper drive diagram](https://github.com/SensorLab38/RoboticArm/blob/master/diagram%20arduino%20stepper%20drive.jpg)
-
 Διάραμμα συνδεσμολογίας των εσωτερικών πηνίων toy stepper motor. 
 
 ![stepper diagram drive](https://github.com/SensorLab38/RoboticArm/blob/master/28byj-stepper-motor-wiring-diagram-1024x780.png)
+
+Συνδεσμολογία Arduino με Stepper motor.
+
+![stepper drive diagram](https://github.com/SensorLab38/RoboticArm/blob/master/diagram%20arduino%20stepper%20drive.jpg)
 
 
 
