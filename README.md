@@ -111,6 +111,8 @@
 
 Περιγραφή του stepper motor.
 
+![stepper parts1](https://github.com/SensorLab38/RoboticArm/blob/master/stepper-parts1.png)
+
 ![stepper parts](https://github.com/SensorLab38/RoboticArm/blob/master/stepper-parts.jpg)
 
 
