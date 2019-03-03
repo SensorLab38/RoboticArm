@@ -121,6 +121,10 @@
 
 Συνδεσμολογία Arduino με  Stepper motor.
 
+![stepper diagram drive](https://github.com/SensorLab38/RoboticArm/blob/master/28byj-stepper-motor-wiring-diagram-1024x780.png)
+
+
+
 
 
 
