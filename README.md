@@ -131,33 +131,33 @@
 
 Προγραμματισμός ενός Stepper Motor
 
-#include <Stepper.h>
+    #include <Stepper.h>
 
-#define STEPS 32                        //Steps per revolution (βήματα ανά περιστροφή)
+    #define STEPS 32                        //Steps per revolution (βήματα ανά περιστροφή)
 
-Stepper stepper(STEPS, 8, 9, 10, 11);   //Stepper class (Συνάρτηση που περιγράφει την σύνδεση του step Mottor στο Arduino) 
+    Stepper stepper(STEPS, 8, 9, 10, 11);   //Stepper class (Συνάρτηση που περιγράφει την σύνδεση του step Mottor στο Arduino) 
 
-int val = 1024;                         //Variable (Ορίζουμε την μεταβλητή "val" 
+    int val = 1024;                         //Variable (Ορίζουμε την μεταβλητή "val" 
 
-void setup(){                           // Η συνάρτηση SETUP
+    void setup(){                           // Η συνάρτηση SETUP
 
-  stepper.setSpeed(600);                // Η συνάρτηση "SetSpeed" μας δηλώνει την ταχύτητα περιστοφής του step motor
+      stepper.setSpeed(600);                // Η συνάρτηση "SetSpeed" μας δηλώνει την ταχύτητα περιστοφής του step motor
   
-}
+    }
 
-void loop() {                           // Η συνάρτηση "LOOP"
+    void loop() {                           // Η συνάρτηση "LOOP"
 
-    stepper.step(val);                  // Η συνάρτηση "stepper.step" δηλώνει την κίνηση προς μία κατευθυνση του step motor.
+     stepper.step(val);                  // Η συνάρτηση "stepper.step" δηλώνει την κίνηση προς μία κατευθυνση του step motor.
     
-    delay(1000);                        // Καθυστέρηση 1 δευτερόλεπτο.
+        delay(1000);                        // Καθυστέρηση 1 δευτερόλεπτο.
     
-    stepper.step(-val);                 // Η συνάρτηση "stepper.step" δηλώνει την κίνηση προς την αντίθετη κατεύθυνση του step motor.
+        stepper.step(-val);                // Η συνάρτηση "stepper.step" δηλώνει την κίνηση προς την αντίθετη κατεύθυνση του step motor.
     
-    delay(1000);                        // Καθυστέρηση 1 δευτερόλεπτο.
+         delay(1000);                        // Καθυστέρηση 1 δευτερόλεπτο.
     
-    while(1);                           // Η συνάρτηση "while" διακόπτει την κίνηση του step motor.
+        while(1);                           // Η συνάρτηση "while" διακόπτει την κίνηση του step motor.
 
-}
+    }
 
     
 
