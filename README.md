@@ -103,6 +103,7 @@
 Αυτή την εβδομάδα η ομάδα μελέτησε το stepper motor καθώς και το stepper motor drive (ULN2003).
 
 ![stepper](https://github.com/SensorLab38/RoboticArm/blob/master/StepperMotorWithDriver_1200x1200.jpg)
+Το Εργαστήριο Ρομποτικής SensorLab38
 
 Οι διαστάσεις είναι απαραίτητες για την τοποθέτηση του stepper στην κατασκευή.
 
