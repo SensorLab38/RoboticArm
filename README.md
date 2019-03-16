@@ -79,6 +79,8 @@
 Οι μαθητές εκπαιδεύτηκαν στις βασικές έννοιες του προγραμματισμού με την γλώσσα IDE του Arduino Uno. 
 Με την βοήθεια του Eργαστηρίου Rομποτικής (SensorLab38) έμαθαν να προραμματίζουν τους αισθητήρες και να αναβοσβήνουν τα λαμπάκια (led και RGB led) όπως μπορούμε να δούμε στο παρακάτω σχήμα:
 
+![SensorLab38](https://github.com/SensorLab38/RoboticArm)
+
 ![leds](https://github.com/SensorLab38/RoboticArm/blob/master/Fritzing%203%20leds.png)
 
 ![3 Leds](https://github.com/SensorLab38/RoboticArm/blob/master/S4A%204%20Lads%20-%20pic.png)
