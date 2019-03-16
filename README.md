@@ -125,8 +125,11 @@
 ![stepper drive diagram](https://github.com/SensorLab38/RoboticArm/blob/master/diagram%20arduino%20stepper%20drive.jpg)
 
 
-Προγραμματισμός ενός Stepper Motor 
+Σάββατο 16 Μαρτίου 2019
 
+Σήμερα ξεκινήσαμε την περιγραφή, την λειτουργία και τον προγραμματισμό ενός Stepper Motor.
+
+Προγραμματισμός ενός Stepper Motor
 
 #include <Stepper.h>
 
