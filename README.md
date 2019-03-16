@@ -119,7 +119,7 @@
 
 ![stepper parts](https://github.com/SensorLab38/RoboticArm/blob/master/stepper-parts.jpg)
 
-Διάραμμα συνδεσμολογίας των εσωτερικών πηνίων του stepper motor. 
+Διάγραμμα συνδεσμολογίας των εσωτερικών πηνίων του stepper motor. 
 
 ![stepper diagram drive](https://github.com/SensorLab38/RoboticArm/blob/master/28byj-stepper-motor-wiring-diagram-1024x780.png)
 
@@ -132,6 +132,8 @@
 Σάββατο 16 Μαρτίου 2019
 
 Σήμερα ξεκινήσαμε την περιγραφή, την λειτουργία και τον προγραμματισμό ενός Stepper Motor με βάση τις παραπάνω προδιαγραφές.
+
+Θα ξεκινήσουμε τον προγραμματισμό πρώτα ενός stepper motor και θα προχωρήσουμε βήμα - βήμα για να ολοκληρώσουμε τον προγραμματισμό όλων των αισθητήρων και να καταλήξουμε στο τελικό πρόγραμμα.
 
 Προγραμματισμός ενός Stepper motor
 
