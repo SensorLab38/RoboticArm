@@ -41,7 +41,7 @@
 
     1 Χ Breadboard 200 οπές		3,00€
 
-    4 Χ Stepper motor  28BYJ-48	 12,00€
+    4 Χ Stepper motor  28BYJ-48	12,00€
 
     4 Χ Motor Driver ULN2003A	7,60€
 
