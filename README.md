@@ -21,9 +21,9 @@
 
 1 Χ Breadboard 200 οπές		3,00€
 
-4 Χ Stepper motor 	 	5,00€
+4 Χ Stepper motor  28BYJ-48	 	5,00€
 
-4 Χ Motor Driver 		3,80
+4 Χ Motor Driver ULN2003A		3,80
 
 1 Χ Relay - SRD-05VDC-SL-C 	2,50
 
@@ -103,10 +103,9 @@
 
 Σάββατο 02 Μαρτίου 2019
 
-Αυτή την εβδομάδα η ομάδα μελέτησε το stepper motor καθώς και το stepper motor drive (ULN2003).
+Αυτή την εβδομάδα η ομάδα μελέτησε το stepper motor 28BYJ-48, καθώς και το stepper motor drive (ULN2003A).
 
 ![stepper](https://github.com/SensorLab38/RoboticArm/blob/master/StepperMotorWithDriver_1200x1200.jpg)
-Το Εργαστήριο Ρομποτικής SensorLab38
 
 Οι διαστάσεις είναι απαραίτητες για την τοποθέτηση του stepper στην κατασκευή.
 
@@ -140,7 +139,7 @@
 
 Θα ξεκινήσουμε τον προγραμματισμό πρώτα ενός stepper motor και θα προχωρήσουμε βήμα - βήμα για να ολοκληρώσουμε τον προγραμματισμό όλων των αισθητήρων και να καταλήξουμε στο τελικό πρόγραμμα.
 
-Προγραμματισμός ενός Stepper motor
+Προγραμματισμός ενός Stepper motor 28BYJ-48
 
     #include <Stepper.h>
     #define STEPS 32                        //Steps per revolution (βήματα ανά περιστροφή)
