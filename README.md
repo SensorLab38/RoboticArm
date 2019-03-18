@@ -17,8 +17,6 @@
 
 ![leds](https://github.com/SensorLab38/RoboticArm/blob/master/Fritzing%203%20leds.png)
 
-![Video](https://github.com/SensorLab38/RoboticArm/blob/master/2018-10-31%2015-21-58.flv)
-
 ******************************************************************************************************************
 
 Η Δεύτερη φάση της κατασκευής
@@ -110,7 +108,7 @@
 
 Γνωριμία με τους αισθητήρες.
 
-Στην συνέχεια η ομάδα μελέτησε ένα - ένα όλους αισθητήες με πρώτο το stepper motor 28BYJ-48, καθώς και το stepper motor drive (ULN2003A).
+Στην συνέχεια η ομάδα μελέτησε ένα - ένα όλους αισθητήρες με πρώτο το stepper motor 28BYJ-48, καθώς και το stepper motor drive (ULN2003A).
 
 ![stepper](https://github.com/SensorLab38/RoboticArm/blob/master/StepperMotorWithDriver_1200x1200.jpg)
 
