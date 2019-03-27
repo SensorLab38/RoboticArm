@@ -149,6 +149,11 @@
 ![relay](https://github.com/SensorLab38/RoboticArm/blob/master/relay.jpg)
 
 To relay προγραμματίζεται να ενεργοποιεί και να απενεργοποιεί τον ηλεκτρομαγήτη.
+
+![relay diagramm](https://github.com/SensorLab38/RoboticArm/blob/master/relay%20%CE%B4%CE%B9%CE%B1%CE%B3%CF%81%CE%B1%CE%BC%CE%BC%CE%B1.png)
+
+To διαγραμμα του relay
+
 ********************************************************************************************************************
 
 Σάββατο 16 Μαρτίου 2019
