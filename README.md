@@ -110,6 +110,10 @@
 
 Στην συνέχεια η ομάδα μελέτησε ένα - ένα όλους αισθητήρες με πρώτο το stepper motor 28BYJ-48, καθώς και το stepper motor drive (ULN2003A).
 
+Περιγραφή της λειτουργίας του Stepper Motor 28BYJ-48. 
+
+Ακαλουθούν τεχνικά χαρακτηριστικά και φωτογραφίες από το εσωτερικό του Stepper Motor  
+
 ![stepper](https://github.com/SensorLab38/RoboticArm/blob/master/StepperMotorWithDriver_1200x1200.jpg)
 
 Οι διαστάσεις είναι απαραίτητες για την τοποθέτηση του stepper στην κατασκευή.
