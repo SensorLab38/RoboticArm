@@ -118,6 +118,8 @@
 
 Περιγραφή της λειτουργίας του Stepper Motor 28BYJ-48. 
 
+
+
 Ακαλουθούν τεχνικά χαρακτηριστικά και φωτογραφίες από το εσωτερικό του Stepper Motor  
 
 ![stepper](https://github.com/SensorLab38/RoboticArm/blob/master/StepperMotorWithDriver_1200x1200.jpg)
