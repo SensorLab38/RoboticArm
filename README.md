@@ -116,7 +116,7 @@
 
 ![desing](https://github.com/SensorLab38/RoboticArm/blob/master/%CE%9F%20%CE%A3%CF%87%CE%B5%CE%B4%CE%B9%CE%B1%CF%83%CE%BC%CF%8C%CF%82%20%CF%84%CE%BF%CF%85%20%CE%A1%CE%BF%CE%BC%CF%80%CE%BF%CF%84%CE%B9%CE%BA%CE%BF%CF%8D%20%CE%92%CF%81%CE%B1%CF%87%CE%AF%CE%BF%CE%BD%CE%B1.odt)
 
-Δείτε τις φωτογραφείες:
+Δείτε τις φωτογραφείες στο παρακάτω link:
 
 ![pics](https://github.com/SensorLab38/RoboticArm/blob/master/Arm%20-%20%CE%95%CE%B9%CE%BA%CE%BF%CE%BD%CE%B5%CF%82%20%CE%B1%CF%80%CF%8C%20%CF%84%CE%B7%CE%BD%20%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%AE.odt)
 
@@ -204,8 +204,13 @@ To διάγραμμα του relay και η συνδεσμολογία του �
        delay(1000);                         // Καθυστέρηση 1 δευτερόλεπτο.
        while(1);                            // Η συνάρτηση "while" διακόπτει την κίνηση του step motor.
        }
-
-    
+*****************************************************************************************************************
+ Στην συνέχεια μελετήσαμε το πρόγραμμαμα με δύο Stepper Motor. Ετοιμάσαμε το κύκλωμα στο εργαστήριο ρομποτικής και δοκιμάσαμε το πρόγραμμα. 
+ 
+ Το πρόγραμμα με δύο Stepper motors 28BYJ-48
+ 
+ 
+ 
 
 
 
