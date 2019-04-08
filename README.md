@@ -43,7 +43,7 @@
 
 Το αρχικό σκίτσο. Η πρώτη ιδέα.
 
-![Σχέδιο](https://github.com/SensorLab38/RoboticArm/blob/master/Pic%20Arm%20drawing.jpg)
+![Σχέδιο](https://github.com/SensorLab38/RoboticArm/blob/master/Pic%20Arm%20Drawing.jpg)
 
 Το σχέδιο από το Core Draw όπως δόθηκε για να κοπεί από το Laser.
 
