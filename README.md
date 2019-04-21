@@ -188,6 +188,8 @@ To stepper motor λειτουργεί διαφορετικά από τα άλλ�
 
 To relay έχει τρεις εισόδους και τρεις εξόδους. Στο εσωτερικό του υπάρχει ένα πηνείο και ένας διακόπτης. Ο διακόπτης μπορεί να είναι  ανοικτός NO (Normal Open) ή κλειστός NC (Normal Closed). Όταν ενεργοποιηθεί το πηνείο από το σήμα 5V που στέλνει το Arduino στην είσοδο 'S' του relay, κλείνει το κύκλωμα του ηλεκτρομαγνήτη. 
 
+![relay2](https://github.com/SensorLab38/RoboticArm/blob/master/Relay%20%CF%80%CE%B5%CF%81%CE%B9%CE%B3%CF%81%CE%B1%CF%86%CE%AE.png)
+
 ![relay](https://github.com/SensorLab38/RoboticArm/blob/master/relay.jpg)
 
 To relay προγραμματίζεται να ενεργοποιεί και να απενεργοποιεί τον ηλεκτρομαγήτη.
