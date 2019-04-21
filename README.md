@@ -190,11 +190,9 @@ To stepper motor λειτουργεί διαφορετικά από τα άλλ�
 
 To relay προγραμματίζεται να ενεργοποιεί και να απενεργοποιεί τον ηλεκτρομαγήτη.
 
-![relay diagramm](https://github.com/SensorLab38/RoboticArm/blob/master/relay%20%CE%B4%CE%B9%CE%B1%CE%B3%CF%81%CE%B1%CE%BC%CE%BC%CE%B1.png)
+![magnet](https://github.com/SensorLab38/RoboticArm/blob/master/%CE%A3%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B3%CF%81%CE%B1%CE%BC%CE%BC%CE%B1%20Relay%20-%20electromagnet.png)
 
 To διάγραμμα του relay και η συνδεσμολογία του με το Arduino και τον ηλεκτρομαγνήτη. 
-
-![magnet](https://github.com/SensorLab38/RoboticArm/blob/master/%CE%A3%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B3%CF%81%CE%B1%CE%BC%CE%BC%CE%B1%20Relay%20-%20electromagnet.png)
 
 ********************************************************************************************************************
 
