@@ -280,4 +280,78 @@ To relay έχει τρεις εισόδους και τρεις εξόδους. 
 
 Το τελικό πρόγραμμα που αναπτύσσεται παρακάτω θα κινεί τον βραχίονα έτσι, ώστε να συλλέγει φορτία από τρεις διαφορετικές τοποθεσίες και να τα αποθέτει επάνω στη ρομποτική πλατφόρμα. Το πρόγραμμα θα μας δίνει την δυνατότητα να επιλέγουμε πόσα φορτία να συλλέξει από κάθε τοποθεσία και πότε να σταματάει την συλλογή. Τα μέλη της ομάδας πέρα από το τελικό πρόγραμμα, θα κληθούν με βάσει τις γνώσεις που απέκτησαν, να τροποποιήσουν το πρόγραμμα και να κινήσουν το βραχίονα με τον τρόπο που επιθυμούν. Τα προγράμματά τους θα παρατεθούν κάτω από το τελικό πρόγραμμα.     
 
+      #include <Stepper.h>
+      #define STEPS 32
+      Stepper stepper(STEPS, 8, 10, 9, 11);
+      Stepper stepper1(STEPS, 4, 6, 5, 7);
+
+      int load = 1300;
+      int upload = 1528;
+      int move1 = 512;
+      int move2 = 1024;
+      int move3 = 1512;
+      int park = 512;
+      int magnet = 3;
+
+    void setup() {
+      stepper.setSpeed(800);
+      stepper1.setSpeed(800);
+      pinMode(magnet, OUTPUT);
+    }
+    void loop() {
+      stepper.step(-park);    // Ξεπαρκάρει 
+      stepper1.step(-move1);  // Κίνηση 1η θέση
+      delay(1000);
+      stepper.step(-load);    // Κατεβάζει το μαγνήτη
+      delay(1000);
+      digitalWrite(magnet, HIGH);
+      delay(1000);
+      stepper.step(load);     // ανεβάζει το φορτίο
+      delay(1000);
+      stepper1.step(move1);   // επιστρέφει για ξεφώρτομα
+      delay(1000);
+      stepper.step(-upload);  // Ξεφορτώνει
+      digitalWrite(magnet, LOW);
+      delay(1000);    
+      delay(1000);
+      stepper.step(upload);   // ανεβάζει το μαγνήτη
+      delay(1000);
+      stepper1.step(-move2);  // κίνηση 2η θέση
+      delay(1000);
+      stepper.step(-load);    // Κατεβάζει το μαγνήτη
+      delay(1000);
+      digitalWrite(magnet, HIGH);
+      delay(1000);
+      stepper.step(load);     // ανεβάζει το φορτίο
+      delay(1000);
+      stepper1.step(move2);   // επιστρέφει για ξεφόρτωμα
+      delay(1000);
+      stepper.step(-upload);  // Ξεφορτώνει
+      delay(1000);
+      digitalWrite(magnet, LOW);
+      delay(1000);
+      stepper.step(upload);   // Ανεβάζει το μαγήτη
+      delay(1000);
+      stepper1.step(-move3);  // κίνηση 3η θέση
+      delay(1000);
+      stepper.step(-load);    // κατεβάζει το μαγνήτη
+      delay(1000);
+      digitalWrite(magnet, HIGH);
+      delay(1000);
+      stepper.step(load);     // ανεβάζει το φορτίο
+      delay(1000);
+      stepper1.step(move3);   // Επιστρέφει για ξεφόρτωμα
+      delay(1000);
+      stepper.step(-upload);  // Ξεφορτώνει
+      delay(1000);
+      digitalWrite(magnet, LOW);
+      delay(1000);
+      stepper.step(upload);   // Ανεβάζει το μαγνήτη   
+      delay(1000);
+      stepper.step(park);     // Παρκάρει
+      delay(1000);
+      while(1);               // Τέλος εργασιών
+    
+    
+
 
