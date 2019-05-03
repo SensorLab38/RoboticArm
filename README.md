@@ -122,8 +122,6 @@
 Το συνολικό κόστος της κατασκευής δεν ξεπερνάει τα 90,00 Ευρώ.  
 **********************************************************************************************************************
 
-# Σάββατο 23-02-2019 
-
 Για την καλύτερη οργάνωση και εκτέλεση του προγράμματος του ρομποτικού βραχίονα, η ομάδα χωρίστηκε σε πέντε υποομάδες όπου η κάθε ομάδα είχε συγκεκριμένα παθήκοντα. 
 
 # Ομάδα συναρμολόγησης  
@@ -146,8 +144,6 @@
 ![pics](https://github.com/SensorLab38/RoboticArm/blob/master/Arm%20-%20%CE%95%CE%B9%CE%BA%CE%BF%CE%BD%CE%B5%CF%82%20%CE%B1%CF%80%CF%8C%20%CF%84%CE%B7%CE%BD%20%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%AE.odt)
 
 **********************************************************************************************************************
-
-# Σάββατο 02 Μαρτίου 2019
 
 # Γνωριμία με τους αισθητήρες.
 
@@ -215,8 +211,6 @@ To relay έχει τρεις εισόδους και τρεις εξόδους. 
 
 ********************************************************************************************************************
 
-# Σάββατο 16 Μαρτίου 2019
-
 # Ο προγραμματισμός του βραχίονα. 
 
 Ο προγραμματισμός του βραχίονα θα γίνει με την γλώσσα Arduino IDE, μια παραλλαγή της γλώσσας προγραμματισμού C++.
@@ -244,8 +238,6 @@ To relay έχει τρεις εισόδους και τρεις εξόδους. 
        }
 *****************************************************************************************************************
  Στην συνέχεια μελετήσαμε το πρόγραμμαμα με δύο stepper Motor. Ετοιμάσαμε το κύκλωμα στο εργαστήριο ρομποτικής και δοκιμάσαμε το πρόγραμμα. 
- 
- # Σάββατο 30 Μαρτίου 2019
  
  # Το πρόγραμμα με δύο Stepper motors 28BYJ-48
  
@@ -285,8 +277,8 @@ To relay έχει τρεις εισόδους και τρεις εξόδους. 
       Stepper stepper(STEPS, 8, 10, 9, 11);
       Stepper stepper1(STEPS, 4, 6, 5, 7);
 
-      int load = 1300;
-      int upload = 1528;
+      int load = 1024;
+      int upload = 1024;
       int move1 = 512;
       int move2 = 1024;
       int move3 = 1512;
@@ -299,58 +291,57 @@ To relay έχει τρεις εισόδους και τρεις εξόδους. 
       pinMode(magnet, OUTPUT);
     }
     void loop() {
-      stepper.step(-park);    // Ξεπαρκάρει 
-      stepper1.step(-move1);  // Κίνηση 1η θέση
+      stepper.step(-park);        // Ξεπαρκάρει 
+      stepper1.step(-move1);      // Κίνηση στην 1η θέση
       delay(1000);
-      stepper.step(-load);    // Κατεβάζει το μαγνήτη
+      stepper.step(-load);        // Κατεβάζει το μαγνήτη για να φορτώσει
       delay(1000);
-      digitalWrite(magnet, HIGH);
+      digitalWrite(magnet, HIGH); // Ενεργοποιεί τον μαγνήτη
       delay(1000);
-      stepper.step(load);     // ανεβάζει το φορτίο
+      stepper.step(load);         // Ανεβάζει το φορτίο
       delay(1000);
-      stepper1.step(move1);   // επιστρέφει για ξεφώρτομα
+      stepper1.step(move1);       // Επιστρέφει για ξεφώρτομα
       delay(1000);
-      stepper.step(-upload);  // Ξεφορτώνει
-      digitalWrite(magnet, LOW);
+      stepper.step(-upload);      // Ξεφορτώνει το φορτίο
+      digitalWrite(magnet, LOW);  // Απενεργοποιεί τον μαγνήτη
       delay(1000);    
+      stepper.step(upload);       // Ανεβάζει τον μαγνήτη
       delay(1000);
-      stepper.step(upload);   // ανεβάζει το μαγνήτη
+      stepper1.step(-move2);      // Κίνηση στη 2η θέση
       delay(1000);
-      stepper1.step(-move2);  // κίνηση 2η θέση
+      stepper.step(-load);        // Κατεβάζει το μαγνήτη
       delay(1000);
-      stepper.step(-load);    // Κατεβάζει το μαγνήτη
+      digitalWrite(magnet, HIGH); // Ενεργοποιεί τον μαγνήτη
       delay(1000);
-      digitalWrite(magnet, HIGH);
+      stepper.step(load);         // Ανεβάζει το φορτίο
       delay(1000);
-      stepper.step(load);     // ανεβάζει το φορτίο
+      stepper1.step(move2);       // Επιστρέφει για ξεφόρτωμα
       delay(1000);
-      stepper1.step(move2);   // επιστρέφει για ξεφόρτωμα
+      stepper.step(-upload);      // Ξεφορτώνει το φορτίο
       delay(1000);
-      stepper.step(-upload);  // Ξεφορτώνει
+      digitalWrite(magnet, LOW);  // Επενεργοποιεί τον μαγνήτη
       delay(1000);
-      digitalWrite(magnet, LOW);
+      stepper.step(upload);       // Ανεβάζει το μαγνήτη
       delay(1000);
-      stepper.step(upload);   // Ανεβάζει το μαγήτη
+      stepper1.step(-move3);      // Κίνηση στη 3η θέση
       delay(1000);
-      stepper1.step(-move3);  // κίνηση 3η θέση
+      stepper.step(-load);        // Κατεβάζει το μαγνήτη
       delay(1000);
-      stepper.step(-load);    // κατεβάζει το μαγνήτη
+      digitalWrite(magnet, HIGH); // Ενεργοποιεί τον μαγνήτη
       delay(1000);
-      digitalWrite(magnet, HIGH);
+      stepper.step(load);         // Ανεβάζει το φορτίο
       delay(1000);
-      stepper.step(load);     // ανεβάζει το φορτίο
+      stepper1.step(move3);       // Επιστρέφει για ξεφόρτωμα
       delay(1000);
-      stepper1.step(move3);   // Επιστρέφει για ξεφόρτωμα
+      stepper.step(-upload);      // Ξεφορτώνει το φορτίο
       delay(1000);
-      stepper.step(-upload);  // Ξεφορτώνει
+      digitalWrite(magnet, LOW);  // Επεργοποιεί τον μαγνήτη
       delay(1000);
-      digitalWrite(magnet, LOW);
+      stepper.step(upload);       // Ανεβάζει το φορτίο   
       delay(1000);
-      stepper.step(upload);   // Ανεβάζει το μαγνήτη   
+      stepper.step(park);         // Παρκάρει
       delay(1000);
-      stepper.step(park);     // Παρκάρει
-      delay(1000);
-      while(1);               // Τέλος εργασιών
+      while(1);                   // Τέλος εργασιών
       
       
       
