@@ -20,7 +20,7 @@
 
 Το εργαστήριο Ρομποτικής "SensorLab38 - Combo"
 
-![Leds](https://github.com/SensorLab38/RoboticArm/blob/master/4%20leds.docx)
+![Leds](https://github.com/SensorLab38/RoboticArm/blob/master/Scratch%203Leds.png)
 
 ******************************************************************************************************************
 # Η δεύτερη φάση της σχεδίασης
