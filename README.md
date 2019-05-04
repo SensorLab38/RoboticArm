@@ -140,7 +140,7 @@
 
 Εικόνες από τις εργασίες συναρμολόγησης. Δείτε τις φωτογραφείες στο παρακάτω link:
 
-![pics](https://github.com/SensorLab38/RoboticArm/blob/master/Arm%20-%20%CE%95%CE%B9%CE%BA%CE%BF%CE%BD%CE%B5%CF%82%20%CE%B1%CF%80%CF%8C%20%CF%84%CE%B7%CE%BD%20%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%AE.odt)
+![pics](https://github.com/SensorLab38/RoboticArm/blob/master/Pics.png)
 
 **********************************************************************************************************************
 
